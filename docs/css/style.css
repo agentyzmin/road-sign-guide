@@ -580,3 +580,13 @@ p.caption {
 .sidebar .search .clear-button {
     line-height: 0;
 }
+
+/* Paragraph numbers */
+@media screen and (min-width: 600px) {
+    .p-number {
+        position: absolute;
+        font-size: 0.8em;
+        /*left: -1em;*/
+        transform: translate(-4em,0.2em);
+    }
+}
