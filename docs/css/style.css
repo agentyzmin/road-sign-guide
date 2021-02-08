@@ -549,7 +549,10 @@
     margin: 0 0 1.5em 0;
 }
 
-
+.markdown-section h1 {
+    line-height: 1.2em;
+    margin: 0 0 0.75em 0;
+}
 
 /* sidebar */
 .sidebar-nav {
