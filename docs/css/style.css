@@ -554,6 +554,11 @@
     margin: 0 0 0.75em 0;
 }
 
+.markdown-section h2 {
+    line-height: 1.2em;
+    margin-top: 2em;
+}
+
 /* sidebar */
 .sidebar-nav {
     font-size: 0.75em;
