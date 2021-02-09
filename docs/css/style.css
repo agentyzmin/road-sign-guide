@@ -598,3 +598,62 @@ p.caption {
         transform: translate(-4em,0.2em);
     }
 }
+
+
+.road-sign-bg {
+  background-color: #033878;
+  color: #fff;
+}
+
+/*Road Numbers*/
+
+.road-num {
+  padding: 0.25em 0.25em 0.05em; 
+  margin: 0 0.1em;
+  font-weight: 600; 
+  border-radius: 0.25em;
+  color:#FFF; 
+  font-size: smaller; 
+  text-transform: uppercase; 
+  white-space: nowrap;
+/*  border: solid 0.11em; 
+  border-color: #FFF; */
+}
+
+.road-num.red,.road-num.n,.road-num.m {
+  background-color: #E40428;
+}
+
+.road-num.green,.road-num.e {
+  background-color: #3AAA35;
+}
+
+.road-num.blue, .road-num.r, .road-num.t  {
+  background-color: #033878;
+}
+
+.road-num.yellow {
+  background-color: #FFE054; 
+  padding: 0.25em 0.25em 0.05em; 
+  border: solid 0.11em; 
+  border-color: #000; 
+  color: #000;
+}
+
+.road-num.transp {
+  background-color:none; 
+  padding: 0.25em 0.25em 0.05em; 
+  border: solid 0.11em; 
+  border-color: #033878; 
+  color: #033878;
+}
+
+.road-num.transp.w {
+  background-color:none; 
+  padding: 0.25em 0.25em 0.05em; 
+  border: solid 0.11em; 
+  border-color: #fff; 
+  color: #fff;
+}
+
+
