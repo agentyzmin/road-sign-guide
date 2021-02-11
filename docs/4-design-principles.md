@@ -3,13 +3,13 @@
 # 4. Побудова знаків та їхніх елементів
 
 
-## 4.1 Модуль {#4-1-модуль}
+## 4.1 Модуль
 
-4.1.1 Модуль (x) — штучний коефіцієнт, що дорівнює ширині штриха літери. Розмір усіх елементів будується залежно від величини модуля, а сам модуль залежить від швидкості на ділянці: це дозволяє зберігати однакові пропорції елементів, навіть коли розміри знаків у населеному пункті менші за розмір на дорозі.
+<span class="p-number">4.1.1</span> Модуль (x) — штучний коефіцієнт, що дорівнює ширині штриха літери. Розмір усіх елементів будується залежно від величини модуля, а сам модуль залежить від швидкості на ділянці: це дозволяє зберігати однакові пропорції елементів, навіть коли розміри знаків у населеному пункті менші за розмір на дорозі.
 
 Розмір літер — така ж похідна від загального модуля (ширини штриха). Пропорції шрифту розроблені таким чином, щоб висота рядкової літери основного напису (українського) дорівнювала 4х. Розмір рядкової літери другорядного напису (транслітерації або перекладу) відрізняється на один модуль — 3х, що дозволяє створити достатній контраст до основного напису, але лишати текст читабельним.
 
-4.1.2 Розмір модулів залежить від швидкісного режиму: що більша швидкість, то більший модуль. Значення модулів для рядкових літер (xh) та для великих/прописних (Ch) літер наведені в таблиці 4.1.
+<span class="p-number">4.1.2</span> Розмір модулів залежить від швидкісного режиму: що більша швидкість, то більший модуль. Значення модулів для рядкових літер (xh) та для великих/прописних (Ch) літер наведені в таблиці 4.1.
 
 Таблиця 4.1 — Розміри модулів для різних типів доріг
 
@@ -130,13 +130,13 @@
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image1.png "image_tooltip")
 
 
-Ілюстрація 4.1 — рядкова літера (xh) та велика/прописна літера (Ch)
+<p class="caption">Ілюстрація 4.1 — рядкова літера (xh) та велика/прописна літера (Ch)</p>
 
 ~~Відштовхуємось від розмірів рядковими літерами, оскільки їх більшість. Застосовуємо коефіцієнт (k<sub>чит</sub>) — 10 мм літери на кожні 4,8 м відстані, з якої потрібно зчитувати знак. За різної швидкості відстань зчитування (D) буде різною та вираховується з висоти  з урахуванням коефіцієнту:~~
 
@@ -242,44 +242,44 @@
 
 
 
-## 4.2 Загальні принципи дизайну знаків {#4-2-загальні-принципи-дизайну-знаків}
+## 4.2 Загальні принципи дизайну знаків
 
-4.2.1 Принцип близькості — об’єкти, розташовані поруч, сприймаються зв’язаними за сенсом між собою.
+<span class="p-number">4.2.1</span> Принцип близькості — об’єкти, розташовані поруч, сприймаються зв’язаними за сенсом між собою.
 
 Правило внутрішнього і зовнішнього — окремий випадок теорії близькості. Типографічний об’єкт будь-якого рівня складається з інших об’єктів: літери зі штрихів, слова з літер, рядки зі слів, абзаци з рядків. І для того щоб об’єкт мав самостійне значення, тобто щоб літера, слово, рядок та абзац відділились від сусідніх, його внутрішні відстані мають бути меншими за зовнішні.
 
-4.2.2 Виділення пріоритетів. Дизайн — це спосіб керування увагою водія, особливо в умовах малого часу сприйняття знака в різних умовах видимості. Тому в дизайні потрібно виділяти пріоритети і таким чином спрощувати сприйняття знаків.
+<span class="p-number">4.2.2</span> Виділення пріоритетів. Дизайн — це спосіб керування увагою водія, особливо в умовах малого часу сприйняття знака в різних умовах видимості. Тому в дизайні потрібно виділяти пріоритети і таким чином спрощувати сприйняття знаків.
 
-4.2.3 Розміри знаків підлаштовуються під інформацію. Розміри знаків підлаштовуються під інформацію на знаку, а не навпаки, оскільки розмір тексту та інформації розраховано для найкращої зчитуваності на швидкості.
+<span class="p-number">4.2.3</span> Розміри знаків підлаштовуються під інформацію. Розміри знаків підлаштовуються під інформацію на знаку, а не навпаки, оскільки розмір тексту та інформації розраховано для найкращої зчитуваності на швидкості.
 
-4.2.4 Лінія читання. Окрім модульної сітки для кращої естетики і покращення сприйняття, створюємо лінію читання «Назва—Відстань—Напрям». Об’єкти на одній лінії простіше співвідносити між собою.
+<span class="p-number">4.2.4</span> Лінія читання. Окрім модульної сітки для кращої естетики і покращення сприйняття, створюємо лінію читання «Назва—Відстань—Напрям». Об’єкти на одній лінії простіше співвідносити між собою.
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image2.png "image_tooltip")
 
 
-Ілюстрація 4.2 — Лінії читання на знаках підтвердження та напрямку руху
+<p class="caption">Ілюстрація 4.2 — Лінії читання на знаках підтвердження та напрямку руху</p>
 
-4.2.5 Заокруглення. Замість стандартного механічного заокруглення, в основі якого лежить еліпс, потрібно використовувати криву, в основі якої лежить супереліпс (крива Ламе), що дає більш плавний та природній згин кривої.
+<span class="p-number">4.2.5</span> Заокруглення. Замість стандартного механічного заокруглення, в основі якого лежить еліпс, потрібно використовувати криву, в основі якої лежить супереліпс (крива Ламе), що дає більш плавний та природній згин кривої.
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image3.png "image_tooltip")
 
 
-Ілюстрація 4.3  — Порівняння механічного радіусу з еліпсу та кривої з суперліпсу (кривої Ламе)
+<p class="caption">Ілюстрація 4.3  — Порівняння механічного радіусу з еліпсу та кривої з суперліпсу (кривої Ламе)</p>
 
 
-## 4.3 Шрифт {#4-3-шрифт}
+## 4.3 Шрифт
 
-4.3.1 Для всіх написів використовується шрифт [Road UA](https://github.com/agentyzmin/Road-UA-Font/releases/download/1/Road.UA.v.1.zip). 
+<span class="p-number">4.3.1</span> Для всіх написів використовується шрифт [Road UA](https://github.com/agentyzmin/Road-UA-Font/releases/download/1/Road.UA.v.1.zip). 
 
 Для знаків використовуються два основних накреслення (ілюстрація 4.4): 
 
@@ -290,69 +290,69 @@
 
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image4.png "image_tooltip")
  
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image5.png "image_tooltip")
 
 
-Ілюстрація 4.4 — Літери шрифту Road UA в накресленнях medium та bold
+<p class="caption">Ілюстрація 4.4 — Літери шрифту Road UA в накресленнях medium та bold</p>
 
-4.3.2 Для всіх написів використовуємо написання Title сase (ілюстрація 4.5) — великі літери використовують для початку повідомлення та початку кожного слова у власних назвах, інші літери рядкові.
+<span class="p-number">4.3.2</span> Для всіх написів використовуємо написання Title сase (ілюстрація 4.5) — великі літери використовують для початку повідомлення та початку кожного слова у власних назвах, інші літери рядкові.
 
 
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image6.png "image_tooltip")
 
 
-Ілюстрація 4.5 — Написання Title case
+<p class="caption">Ілюстрація 4.5 — Написання Title case</p>
 
-4.3.3 Крім літер у шрифті присутні піктограми кодів країн та піктограми, які доступні у разі застосування лігатур (opentype feature) або як окремі символи.
+<span class="p-number">4.3.3</span> Крім літер у шрифті присутні піктограми кодів країн та піктограми, які доступні у разі застосування лігатур (opentype feature) або як окремі символи.
 
 
-## 4.4 Мови  {#4-4-мови}
+## 4.4 Мови 
 
-4.4.1 Основна мова знаків — українська. Додатково до української використовується:
+<span class="p-number">4.4.1</span> Основна мова знаків — українська. Додатково до української використовується:
 
 
 
 *   транслітерація — для власних назв, коли треба передати точне звучання назви латинськими літерами (назви топонімів — назви населених пунктів, річок, вулиць тощо);
 *   переклад англійською — для інформаційних повідомлень, коли треба передати осмислений зміст.
 
-4.4.2 Завжди використовуються два написи один під одним: спочатку українська, потім трансліт/переклад. Це дозволяє зробити інформацію передбачуваною: водій завжди очікуватиме побачити необхідні написи і зможе швидше їх розпізнавати (ілюстрація 4.6).
+<span class="p-number">4.4.2</span> Завжди використовуються два написи один під одним: спочатку українська, потім трансліт/переклад. Це дозволяє зробити інформацію передбачуваною: водій завжди очікуватиме побачити необхідні написи і зможе швидше їх розпізнавати (ілюстрація 4.6).
 
-4.4.3 Не можна розділяти українські і транслітеровані/перекладені написи на різні знаки, це руйнує передбачуваність зчитування (ілюстрація 4.7).
+<span class="p-number">4.4.3</span> Не можна розділяти українські і транслітеровані/перекладені написи на різні знаки, це руйнує передбачуваність зчитування (ілюстрація 4.7).
 
 
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image7.png "image_tooltip")
 
 
-Ілюстрація 4.6 — Розташування написів один під одним
+<p class="caption">Ілюстрація 4.6 — Розташування написів один під одним</p>
 
 
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image8.png "image_tooltip")
 
 
-Ілюстрація 4.7 — Неправильне розташування написів різною абеткою
+<p class="caption">Ілюстрація 4.7 — Неправильне розташування написів різною абеткою</p>
 
-4.4.4 Для транслітерованих назв використовується модифікована паспортна транслітерація КМУ 2010. Від офіційної паспортної транслітерації вона відрізняється спрощеною літерою «щ» — «sch», а також усуненим дублюванням у «iie», «iia», «zhg», «ts», а «ьо» транслітерується як «io» (таблиця 4.2).
+<span class="p-number">4.4.4</span> Для транслітерованих назв використовується модифікована паспортна транслітерація КМУ 2010. Від офіційної паспортної транслітерації вона відрізняється спрощеною літерою «щ» — «sch», а також усуненим дублюванням у «iie», «iia», «zhg», «ts», а «ьо» транслітерується як «io» (таблиця 4.2).
 
 **Таблиця 4.2** — Відповідники транслітерації
 
@@ -548,7 +548,7 @@
 
 ** Після літери «з» вживається «gh». В інших випадках — «h».
 
-4.4.5 Типи вулиць українською мовою скорочуються, у трансліті транслітеруються разом з назвою відповідно до таблиці 4.3.
+<span class="p-number">4.4.5</span> Типи вулиць українською мовою скорочуються, у трансліті транслітеруються разом з назвою відповідно до таблиці 4.3.
 
 **Таблиця 4.3** — Скорочення й транслітерація типів вулиць
 
@@ -1087,92 +1087,92 @@
 
 Слова «місто» «село», «хутір» тощо та їх скорочення на знаках біля назви населеного пункту не пишуть.
 
-4.4.6 Закордонні латинські назви відтворюються українською, поруч з назвою вказується код країни, другим рядком висотою 3х — на мові оригіналу. Закордонні кириличні назви перекладаються (наприклад, Москва →  Moscow).
+<span class="p-number">4.4.6</span> Закордонні латинські назви відтворюються українською, поруч з назвою вказується код країни, другим рядком висотою 3х — на мові оригіналу. Закордонні кириличні назви перекладаються (наприклад, Москва →  Moscow).
 
 
 
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image9.png "image_tooltip")
 
 
-Ілюстрація 4.8 — Приклади написання закордонних назв мовами оригіналу
+<p class="caption">Ілюстрація 4.8 — Приклади написання закордонних назв мовами оригіналу</p>
 
 
-## 4.5 Розміри текстів {#4-5-розміри-текстів}
+## 4.5 Розміри текстів
 
-4.5.1 Оскільки всі написи набрані переважно рядковими літерами, то розміри текстів розраховуються для висоти рядкової літери xh. Розмір рядкової літери: 
+<span class="p-number">4.5.1</span> Оскільки всі написи набрані переважно рядковими літерами, то розміри текстів розраховуються для висоти рядкової літери xh. Розмір рядкової літери: 
 
 
 
 *   українських написів — 4x;
 *   транслітерації/перекладу — 3x (75% від українських написів).
 
-4.5.2 Розмір великої літери — 1,4 * xh (висоти рядкової).
+<span class="p-number">4.5.2</span> Розмір великої літери — 1,4 * xh (висоти рядкової).
 
 
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image10.png "image_tooltip")
 
 
-Ілюстрація 4.9 — Розмір літер
+<p class="caption">Ілюстрація 4.9 — Розмір літер</p>
 
-4.5.3 Трекінг (відстань між літерами) в усіх написах — 25%.
+<span class="p-number">4.5.3</span> Трекінг (відстань між літерами) в усіх написах — 25%.
 
-4.5.4 Довгі назви переносяться на кілька рядків (ілюстрація 4.9). Відстань між лініями тексту — розмір малої літери (для українських написів 4х, для англійських — 3х).
+<span class="p-number">4.5.4</span> Довгі назви переносяться на кілька рядків (ілюстрація 4.9). Відстань між лініями тексту — розмір малої літери (для українських написів 4х, для англійських — 3х).
 
 
 
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image11.png "image_tooltip")
 
 
-Ілюстрація 4.10 — Напис у кілька рядків
+<p class="caption">Ілюстрація 4.10 — Напис у кілька рядків</p>
 
-4.5.5 Між блоками населених пунктів відстань 6x (ілюстрації 4.11 та 4.12).
+<span class="p-number">4.5.5</span> Між блоками населених пунктів відстань 6x (ілюстрації 4.11 та 4.12).
 
 
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image12.png "image_tooltip")
 
 
-Ілюстрація 4.11 — Розташування і відступи двох назв
+<p class="caption">Ілюстрація 4.11 — Розташування і відступи двох назв</p>
 
 
 
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image13.png "image_tooltip")
 
 
-Ілюстрація 4.12 — Розташування і відступи трьох назв
+<p class="caption">Ілюстрація 4.12 — Розташування і відступи трьох назв</p>
 
 
-## 4.6 Кольори {#4-6-кольори}
+## 4.6 Кольори
 
-4.6.1 В основі всіх дорожніх знаків застосовують вісім кольорів: Білий, Чорний, Синій, Зелений, Коричневий, Жовтий, Червоний, Помаранчевий.
+<span class="p-number">4.6.1</span> В основі всіх дорожніх знаків застосовують вісім кольорів: Білий, Чорний, Синій, Зелений, Коричневий, Жовтий, Червоний, Помаранчевий.
 
 
 
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image14.png "image_tooltip")
 
 
-Ілюстрація 4.13 — Кольори
+<p class="caption">Ілюстрація 4.13 — Кольори</p>
 
-4.6.2 Використання на знаках для:
+<span class="p-number">4.6.2</span> Використання на знаках для:
 
 
 
@@ -1185,18 +1185,18 @@
 
 
 
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image15.png "image_tooltip")
 
 
-Ілюстрація 4.14 — Кольори тексту і тла
+<p class="caption">Ілюстрація 4.14 — Кольори тексту і тла</p>
 
 
 ## 4.7 Облямівка
 
-4.7.1 Можливі два види облямівки:
+<span class="p-number">4.7.1</span> Можливі два види облямівки:
 
 
 
@@ -1205,25 +1205,25 @@
 
 
 
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image16.jpg "image_tooltip")
 
 
-Ілюстрація 4.15 — Кольори облямівки знаків
+<p class="caption">Ілюстрація 4.15 — Кольори облямівки знаків</p>
 
 
 ## 4.8 Радіус заокруглення кутів знака
 
-4.8.1 Для знаків з темним тлом:
+<span class="p-number">4.8.1</span> Для знаків з темним тлом:
 
 
 
 *   Радус заокруглення: зовнішній — R = 1,5x, внутрішній (до облямівки) — R = 1x.
 *   Товщина — 0,5x.
 
-4.8.2 Для знаків зі світлим тлом:
+<span class="p-number">4.8.2</span> Для знаків зі світлим тлом:
 
 
 
@@ -1232,112 +1232,107 @@
 
 
 
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image17.png "image_tooltip")
  
 
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image18.png "image_tooltip")
 
 
-Ілюстрація 4.16 — Радіус заокруглення кутів та розміри облямівки на знаках з темним та світлим тлом
+<p class="caption">Ілюстрація 4.16 — Радіус заокруглення кутів та розміри облямівки на знаках з темним та світлим тлом</p>
 
 
 ## 4.9 Відстані
 
-4.9.1 Відстані до об’єктів (кілометри) округлюються до:
+<span class="p-number">4.9.1</span> Відстані до об’єктів (кілометри) округлюються до:
 
 
 
 *   значень кратних 1 км, за відстані понад 1 км;
 *   значень кратних 0,1 км, за відстані менші 1 км. 
 
-4.9.2 Кілометри розміщуються на рівні українського напису, утворивши лінію читання, на відстані не менше ніж 8х. Розмір номеру відстані такий самий, як для українських написів.
+<span class="p-number">4.9.2</span> Кілометри розміщуються на рівні українського напису, утворивши лінію читання, на відстані не менше ніж 8х. Розмір номеру відстані такий самий, як для українських написів.
 
 
 
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image19.png "image_tooltip")
 
 
-Ілюстрація 4.17 — Розміри та розташування кілометрів
+<p class="caption">Ілюстрація 4.17 — Розміри та розташування кілометрів</p>
 
-4.9.3 Кілометри для кількох дестинацій вирівнюються за правою стороною (ілюстрація 4.18).
+<span class="p-number">4.9.3</span> Кілометри для кількох дестинацій вирівнюються за правою стороною (ілюстрація 4.18).
 
 
 
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image20.png "image_tooltip")
 
 
-Ілюстрація 4.18 — Вирівнювання кілометрів
+<p class="caption">Ілюстрація 4.18 — Вирівнювання кілометрів</p>
 
 
 ## 4.10 Стрілки
 
-4.10.1 Можливі напрямки на вказівниках: ліворуч, прямо і ліворуч, прямо, прямо і праворуч, праворуч. Стрілки вниз не використовуються, адже позначають напрямки «прямо».
+<span class="p-number">4.10.1</span> Можливі напрямки на вказівниках: ліворуч, прямо і ліворуч, прямо, прямо і праворуч, праворуч. Стрілки вниз не використовуються, адже позначають напрямки «прямо».
 
 
 
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image21.png "image_tooltip")
 
 
-Ілюстрація 4.19 — Можливі напрямки
+<p class="caption">Ілюстрація 4.19 — Можливі напрямки</p>
 
-4.10.2 Стрілка складається з _шеврону_ з кутом 90º та_ ніжки_, що в 2 рази довша за _шеврон_ (ілюстрація 4.20).
+<span class="p-number">4.10.2</span> Стрілка складається з _шеврону_ з кутом 90º та_ ніжки_, що в 2 рази довша за _шеврон_ (ілюстрація 4.20).
 
 
     
 
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image22.png "image_tooltip")
 
 
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image23.png "image_tooltip")
 
 
-Ілюстрація 4.20 — Будова стрілки
+<p class="caption">Ілюстрація 4.20 — Будова стрілки</p>
 
-4.10.3 Розворот позначається оберненою стрілкою (ілюстрація 4.21).
+<span class="p-number">4.10.3</span> Розворот позначається оберненою стрілкою (ілюстрація 4.21).
 
 
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image24.png "image_tooltip")
 
 
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image25.png "image_tooltip")
 
 
-Ілюстрація 4.21 — Будова стрілки розвороту
+<p class="caption">Ілюстрація 4.21 — Будова стрілки розвороту</p>
 
 
 ## 4.11 Номери доріг
 
-4.11.1 Написання номерів для доріг  **Е **,  **М **, ** Н ** та ** Р ** через пробіл без дефісів, для доріг ** Т ** через пробіл два набори по дві цифри розділені коротким тире (ілюстрація 4.22).Номери для доріг О та С не вказуються, оскільки вони занадто складні та довгі.
+<span class="p-number">4.11.1</span> Написання номерів для доріг  **Е**,  **М**, **Н** та **Р** через пробіл без дефісів, для доріг **Т** через пробіл два набори по дві цифри розділені коротким тире (ілюстрація 4.22).Номери для доріг О та С не вказуються, оскільки вони занадто складні та довгі.
 
-4.11.2 Кольори, які відповідають кожному типу дороги:
+<span class="p-number">4.11.2</span> Кольори, які відповідають кожному типу дороги:
 
 
      **Е 40**  Європейський маршрут — зелений;
@@ -1356,46 +1351,46 @@
 
 
 
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image26.png "image_tooltip")
 
 
-Ілюстрація 4.22 — Вигляд номерів доріг
+<p class="caption">Ілюстрація 4.22 — Вигляд номерів доріг</p>
 
-4.11.3 Навколо кольорового тла номерів присутня рамка білого кольору (розміри на ілюстраціях 4.23 та 4.24).
+<span class="p-number">4.11.3</span> Навколо кольорового тла номерів присутня рамка білого кольору (розміри на ілюстраціях 4.23 та 4.24).
 
-4.11.4 Існують два розміри номерів: 
+<span class="p-number">4.11.4</span> Існують два розміри номерів: 
 
 
 
 *   великий, висотою 9х, розміщується зверху на знаках підтвердження та вказівниках;
 *   малий, висотою 7х, розміщується біля назви населеного пункту.
 
-Номери можуть комбінуватись, якщо ділянкою проходять кілька маршрутів, наприклад, коли дорога  **М ** є частиною європейських маршрутів  **Е **. Між номерами відстань: для великих номерів — 3х, для малих номерів — 2х.
+Номери можуть комбінуватись, якщо ділянкою проходять кілька маршрутів, наприклад, коли дорога  **М** є частиною європейських маршрутів  **Е**. Між номерами відстань: для великих номерів — 3х, для малих номерів — 2х.
 
 
 
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image27.png "image_tooltip")
 
 
-Ілюстрація 4.23 — Будова малого номеру і відстань між номерами
+<p class="caption">Ілюстрація 4.23 — Будова малого номеру і відстань між номерами</p>
 
 
 
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image28.png "image_tooltip")
 
 
-Ілюстрація 4.24 — Будова великого номеру і відстань між номерами
+<p class="caption">Ілюстрація 4.24 — Будова великого номеру і відстань між номерами</p>
 
-4.11.5 Розміщення номеру
+<span class="p-number">4.11.5</span> Розміщення номеру
 
 Для одного населеного пункту номер розміщується:
 
@@ -1406,23 +1401,23 @@
 
 
 
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image29.png "image_tooltip")
 
 
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image30.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image30.png "image_tooltip")
 
 
-Ілюстрація 4.25 — Великий номер над назвою
+<p class="caption">Ілюстрація 4.25 — Великий номер над назвою</p>
 
 
 
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image31.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image31.png "image_tooltip")
@@ -1430,13 +1425,13 @@
 
 
 
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image32.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image32.png "image_tooltip")
 
 
-Ілюстрація 4.26 — Малий номер після назви
+<p class="caption">Ілюстрація 4.26 — Малий номер після назви</p>
 
 Для кількох населених пунктів:
 
@@ -1447,24 +1442,24 @@
 
 
 
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image33.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image33.png "image_tooltip")
 
 
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image34.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image34.png "image_tooltip")
 
 
-Ілюстрація 4.27 — Великий розмір над всіма назвами
+<p class="caption">Ілюстрація 4.27 — Великий розмір над всіма назвами</p>
 
 
 ## 4.12 Піктограми
 
-4.12.1 Для позначення окремих об’єктів інфраструктури використовуються піктограми:
+<span class="p-number">4.12.1</span> Для позначення окремих об’єктів інфраструктури використовуються піктограми:
 
 
 
@@ -1476,80 +1471,80 @@
 
 
 
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image35.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image35.png "image_tooltip")
 
 
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image36.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image36.png "image_tooltip")
 
 
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image37.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image37.png "image_tooltip")
 
 
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image38.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image38.png "image_tooltip")
 
 
-Ілюстрація 4.28 — Піктограми аеропорту, автовокзалу, залізничного вокзалу та центру
+<p class="caption">Ілюстрація 4.28 — Піктограми аеропорту, автовокзалу, залізничного вокзалу та центру</p>
 
-4.12.2 Піктограма висотою 11x розташовується ліворуч від написів на відстані 4х від тексту (ілюстрація 4.29). На темному тлі додається біла облямівка — квадрат зі стороною 11х (ілюстрація 4.30).
+<span class="p-number">4.12.2</span> Піктограма висотою 11x розташовується ліворуч від написів на відстані 4х від тексту (ілюстрація 4.29). На темному тлі додається біла облямівка — квадрат зі стороною 11х (ілюстрація 4.30).
 
 
 
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image39.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image39.png "image_tooltip")
 
 
-Ілюстрація 4.29 — Розмір та розташування піктограми з облямівкою (для знаків з темним тлом)
+<p class="caption">Ілюстрація 4.29 — Розмір та розташування піктограми з облямівкою (для знаків з темним тлом)</p>
 
 
 
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image40.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image40.png "image_tooltip")
 
 
-Ілюстрація 4.30 — Піктограма з облямівкою (для знаків з темним тлом)
+<p class="caption">Ілюстрація 4.30 — Піктограма з облямівкою (для знаків з темним тлом)</p>
 
-4.12.3 Піктограми, які нагадують стрілки і можуть бути з ними сплутані (наприклад, позначка аеропорту), потрібно обертати разом зі стрілкою. При використанні стрілки для розвороту символ літака має бути спрямований ліворуч і не повинен спрямовуватись вниз (ілюстрації 4.31 та 4.32).
+<span class="p-number">4.12.3</span> Піктограми, які нагадують стрілки і можуть бути з ними сплутані (наприклад, позначка аеропорту), потрібно обертати разом зі стрілкою. При використанні стрілки для розвороту символ літака має бути спрямований ліворуч і не повинен спрямовуватись вниз (ілюстрації 4.31 та 4.32).
 
 
 
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image41.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image41.png "image_tooltip")
 
 
-Ілюстрація 4.31 — Варіанти орієнтації піктограми аеропорту
+<p class="caption">Ілюстрація 4.31 — Варіанти орієнтації піктограми аеропорту</p>
 
 
 
-<p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image42.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image42.jpg "image_tooltip")
 
 
-Ілюстрація 4.32 — Приклади знаків напрямку до аеропорту
+<p class="caption">Ілюстрація 4.32 — Приклади знаків напрямку до аеропорту</p>
 
 
 ## 4.13 Райони та центр
 
-4.13.1 Коли можливі кілька різних в‘їздів у населений пункт, варто вказувати додатковий орієнтир: в яку частину населеного пункту веде дорога.
+<span class="p-number">4.13.1</span> Коли можливі кілька різних в‘їздів у населений пункт, варто вказувати додатковий орієнтир: в яку частину населеного пункту веде дорога.
 
 
 
@@ -1559,121 +1554,121 @@
 
 
 
-<p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image43.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image43.png "image_tooltip")
 
 
-Ілюстрація 4.33 — Вигляд знака з позначкою району
+<p class="caption">Ілюстрація 4.33 — Вигляд знака з позначкою району</p>
 
-4.13.2 Район розташовується на білому тлі з чорною облямівкою. Текст набирається всіма заголовними літерами (ілюстрація 4.34).
+<span class="p-number">4.13.2</span> Район розташовується на білому тлі з чорною облямівкою. Текст набирається всіма заголовними літерами (ілюстрація 4.34).
 
 
 
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image44.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image44.png "image_tooltip")
 
 
-Ілюстрація 4.34 — Будова позначок районів
+<p class="caption">Ілюстрація 4.34 — Будова позначок районів</p>
 
-4.13.3 Українська назва та трансліт або англійський переклад для географічного розташування (частин світу) вказуються окремо. Українська позначка розташовується після назви на відстані 4х, трансліт/англійська — на відстані 3х.
+<span class="p-number">4.13.3</span> Українська назва та трансліт або англійський переклад для географічного розташування (частин світу) вказуються окремо. Українська позначка розташовується після назви на відстані 4х, трансліт/англійська — на відстані 3х.
 
 
 
-<p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image45.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image45.png "image_tooltip")
 
 
-Ілюстрація 4.35 — Розташування позначок районів
+<p class="caption">Ілюстрація 4.35 — Розташування позначок районів</p>
 
 
 ## 4.14 Будова символу перетину доріг
 
-4.14.1 Якщо дестинація розташована в місці перетину з дорогою міжнародного значення М, то до назви додається позначка перетину з іншою дорогою — піктограма білого кольору у вигляді перетину двох доріг. Біля піктограми додають номери дороги, перетин з якою попереду.
+<span class="p-number">4.14.1</span> Якщо дестинація розташована в місці перетину з дорогою міжнародного значення М, то до назви додається позначка перетину з іншою дорогою — піктограма білого кольору у вигляді перетину двох доріг. Біля піктограми додають номери дороги, перетин з якою попереду.
 
-4.14.2 Блок перетину розташовується під блоком назви населеного пункту на відстані 6x (ілюстрації 4.36 та 4.37).
+<span class="p-number">4.14.2</span> Блок перетину розташовується під блоком назви населеного пункту на відстані 6x (ілюстрації 4.36 та 4.37).
 
 
 
-<p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image46.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image46.png "image_tooltip")
 
 
-Ілюстрація 4.36 — Вигляд символу перетину з дорогою Е40 М03
+<p class="caption">Ілюстрація 4.36 — Вигляд символу перетину з дорогою Е40 М03</p>
 
 
 
-<p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image47.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image47.png "image_tooltip")
 
 
-Ілюстрація 4.37 — Розташування блоку перетину доріг
+<p class="caption">Ілюстрація 4.37 — Розташування блоку перетину доріг</p>
 
-4.14.3 Будова символу перетину:
+<span class="p-number">4.14.3</span> Будова символу перетину:
 
 
 
-<p id="gdcalert48" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image48.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert49">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image48.png "image_tooltip")
 
 
-Ілюстрація 4.38 — Реальний розмір (ліворуч) та збільшений розмір (праворуч).
+<p class="caption">Ілюстрація 4.38 — Реальний розмір (ліворуч) та збільшений розмір (праворуч).</p>
 
 
 ## 4.15 Коди країн
 
-4.15.1 Біля прикордонних та закордонних населених пунктів вказуються коди країн:
+<span class="p-number">4.15.1</span> Біля прикордонних та закордонних населених пунктів вказуються коди країн:
 
 
 
 *   для українського прикордонного населеного пункту вказуються два коди — код України UA та код країни, на кордоні з якою розташовано КПП (Чоп UA HU);
 *   якщо на знаку вказується закордонний населений пункт, то біля нього вказується лише один код країни, в якому це місто розташовано (Warszawa PL).
 
-4.15.2 Номер країни зображується у формі еліпсу, розмірами 7,5x довжина та 5,5x висота. Висота літер — 2,5х, текст вирівнюється відносно центру еліпса. Відстань між кодами — 1,5х.
+<span class="p-number">4.15.2</span> Номер країни зображується у формі еліпсу, розмірами 7,5x довжина та 5,5x висота. Висота літер — 2,5х, текст вирівнюється відносно центру еліпса. Відстань між кодами — 1,5х.
 
 
 
-<p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image49.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image49.png "image_tooltip")
 
 
-Ілюстрація 4.39 — Будова кодів країн
+<p class="caption">Ілюстрація 4.39 — Будова кодів країн</p>
 
-4.15.3 Літери кодів чорні, тло коду — біле. На кольорових знаках код без зайвих рамок, на білому тлі додається чорна рамка розміром 0,25х.
+<span class="p-number">4.15.3</span> Літери кодів чорні, тло коду — біле. На кольорових знаках код без зайвих рамок, на білому тлі додається чорна рамка розміром 0,25х.
 
 
 
-<p id="gdcalert50" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image50.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert51">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image50.png "image_tooltip")
 
 
-Ілюстрація 4.40 — Кольори кодів країн
+<p class="caption">Ілюстрація 4.40 — Кольори кодів країн</p>
 
-4.15.4 Код розташовується після української назви населеного пункту на відстані 4x.
+<span class="p-number">4.15.4</span> Код розташовується після української назви населеного пункту на відстані 4x.
 
 
 
-<p id="gdcalert51" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image51.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert52">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image51.png "image_tooltip")
 
 
-Ілюстрація 4.41 — Розташування кодів після назви
+<p class="caption">Ілюстрація 4.41 — Розташування кодів після назви</p>
 
-4.15.5 Якщо населений пункт межує з кількома країнами (є КПП у кожну з країн), то додаються коди кожної країни.
+<span class="p-number">4.15.5</span> Якщо населений пункт межує з кількома країнами (є КПП у кожну з країн), то додаються коди кожної країни.
