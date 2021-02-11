@@ -105,6 +105,7 @@
 
 Щоби засвоїти відображену на таких знаках інформацію та ухвалити відповідні рішення, водієві потрібно більше часу.
 
+
 <p class="caption">Таблиця 3.2 — Відстань для встановлення складних знаків напрямків</p>
 
 <table>
@@ -158,9 +159,9 @@
 
 
 
-
-![alt_text](images/image1.png "image_tooltip")
+![placement-overground.png](assets/3-sign-placement/placement-overground.png "Приклад наземного розташування знака")
 <p class="caption">Ілюстрація 3.1 — Приклад наземного розташування знака</p>
+
 
 Такі знаки найчастіше встановлюють справа від дороги — саме там їх очікують побачити водії. 
 
@@ -170,20 +171,11 @@
 
 <span class="p-number">3.2.3</span> Знаки над проїзною частиною встановлюють на П- та Г-подібних конструкціях (ілюстрації 3.2 та 3.3). 
 
-
-
-
-
-
-![alt_text](images/image2.png "image_tooltip")
-
+![placement-overhead.png](assets/3-sign-placement/placement-overhead.png "Приклад П-подібної опори (ферми)")
 <p class="caption">Ілюстрація 3.2 — Приклад П-подібної опори (ферми)</p>
 
 
-
-
-![alt_text](images/image3.png "image_tooltip")
-
+![placement-overhead-Г.png](assets/3-sign-placement/placement-overhead-Г.png "Приклад Г-подібної опори (консолі)")
 <p class="caption">Ілюстрація 3.3 — Приклад Г-подібної опори (консолі)</p>
 
 Їхнє використання може бути доцільним за певних умов:
@@ -202,7 +194,5 @@
 Якщо знак стосується конкретної смуги, а не до всіх смуг в одному напрямку одночасно, його варто розмістити над відповідною смугою (ілюстрація 3.4).
 
 
-![alt_text](images/image4.png "image_tooltip")
-
-
+![placement-overhead-turn.png](assets/3-sign-placement/placement-overhead-turn.png "Розташування знаку розвороту над смугою розвороту")
 <p class="caption">Ілюстрація 3.4 — Розташування знаку розвороту над смугою розвороту</p>
