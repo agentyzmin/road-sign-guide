@@ -516,7 +516,7 @@
     --sidebar-toggle-icon-stroke-width            : 1px;
     --sidebar-toggle-icon-width                   : 16px;
     --sidebar-toggle-offset-left                  : 0;
-    --sidebar-toggle-offset-top                   : calc(35px - (var(--sidebar-toggle-height) / 2));
+    --sidebar-toggle-offset-top                   : calc(35px - (var(--sidebar-toggle-height) / 2) + 0.6em);
     --sidebar-toggle-width                        : 44px;
 
 
@@ -581,6 +581,10 @@ p.caption {
     padding: 0;
 }
 
+p.caption + p {
+    margin-top: 2em;
+}
+
 .search input {
     border-radius: 0.25em;
 }
@@ -608,7 +612,7 @@ p.caption {
 /*Road Numbers*/
 
 .road-num {
-  padding: 0.25em 0.25em 0.05em; 
+  padding: 0.15em 0.25em 0; 
   margin: 0 0.1em;
   font-weight: 600; 
   border-radius: 0.25em;
