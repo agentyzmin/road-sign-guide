@@ -1,20 +1,22 @@
 # Додаток А. Cимволи та накреслення шрифта
 
-<span class="p-number">А.1</span> Шрифт Road UA містить 616 символів: кирилицю та латинку для назв прикордонних країн.
+<span class="p-number">А.1</span> Шрифт <a href="https://agentyzmin.github.io/Road-UA-Font/">Road UA</a> містить 623 символа: кирилицю та латинку для назв прикордонних країн.
 
-� � � � � � � � � � � � � � � �A���������� � C � � � �����������������F��������� � � � � � � � � ��� � � ��� �� �� � � � � � � � � � � � � � � � � � � � R � � � � � � � � � T���� U � � � � � � � � � �������������� � � � � � � a � � � � � � � � � � b c � �� � � d � � � � e � � ����������g����h��i������������k�l� ����mn�����o����������p�r���s� ����t����u����������v�����xy�� ��z������0123456789,.��������� ����������������������������������������� ���������������������������������������'���’ ������/���()������«»��-–—�:;����� ������������•��������������� ����������������������АБВГДЕ�ЖЗ ��КЛМНОПРСТУ��ЦЧ�������� �����І�����������абвгде�жзий клмнопрстуфхцчшщ��ь�юя���є�ії ����������������������� �������������(Ц)���� �������������� ��������
 
+![symbols.jpg](assets/appendix-a/symbols.jpg "Всі символи шрифта Road UA")
 <p class="caption">Ілюcтрація Б.1 — Всі символи шрифта Road UA</p>
 
+<a href="https://github.com/agentyzmin/Road-UA-Font/releases/latest"><button type="button" class="" style="margin-bottom: 2em;">Завантажити шрифт</button></a>
 
 <span class="p-number">А.2</span> Шрифт містить вісім накреслень: від надтонкого до наджирнішого. Для знаків використовуються два:
 * Medium — для знаків з темним тлом;
 * Bold — для знаків зі світлим тлом.
 
 
+
 <style type="text/css">
 	.preview{
-		font-size: 3em;
+		font-size: 2em;
 		line-height: 110%;
 	}
 	@media (max-width: 768px) {
@@ -26,7 +28,7 @@
 	.fontname{
 		font-weight: 400;
 		color: grey;
-		font-size: 0.4em !important;
+		font-size: 0.3em !important;
 		padding: 0 0 0 0.2em;
 	}
 	@media (max-width: 768px) {
@@ -47,14 +49,14 @@
 </style>
 
 <div>
-	<p class="fw100 preview"><span class="fontname">RoadUA Thin – 100</span>		<br> Десь чув, що той фраєр привіз їхньому царю грильяж та класну шубу з пір'я ґави. </p>
-	<p class="fw200 preview"><span class="fontname">RoadUA ExtraLight — 200</span>	<br> На подушечці форми любої є й ґудзик щоб пір'я геть жовте сховати. </p>
-	<p class="fw300 preview"><span class="fontname">RoadUA Light — 300</span>		<br> Факт ґринджол: бій псюг вщух, з'їм шче яєць. </p>
-	<p class="fw400 preview"><span class="fontname">RoadUA Regular — 400</span>		<br> З'їв аґрусу — та ягода цілюща б'є жах інфекцій шипучим «ь». </p>
-	<p class="fw500 preview"><span class="fontname">RoadUA Medium — 500</span>		<br> Щурячий бугай із їжаком-харцизом в'ючись підписали ґешефт у єнах.</p>
-	<p class="fw700 preview"><span class="fontname">RoadUA Bold — 700</span>		<br> Юнкерський джинґл, що при безхліб'ї чує фашист, це ловця гімн. </p>
-	<p class="fw800 preview"><span class="fontname">RoadUA ExtraBold — 800</span>	<br> Фабрикуймо гідність, лящім їжею, ґав хапаймо, з'єднавці чаш! </p>
-	<p class="fw900 preview"><span class="fontname">RoadUA Black — 900</span>		<br> Щастям б'єш жук їх глицю в фон й ґедзь пріч. </p>
+	<p class="fw100 preview"><span class="fontname">RoadUA Thin – 100</span>		<br> Десь чув, що той фраєр привіз їхньому царю грильяж та класну шубу з пір’я ґави.</p>
+	<p class="fw200 preview"><span class="fontname">RoadUA ExtraLight — 200</span>	<br> На подушечці форми любої є й ґудзик щоб пір’я геть жовте сховати.</p>
+	<p class="fw300 preview"><span class="fontname">RoadUA Light — 300</span>		<br> Факт ґринджол: бій псюг вщух, з’їм шче яєць.</p>
+	<p class="fw400 preview"><span class="fontname">RoadUA Regular — 400</span>		<br> З’їв аґрусу — та ягода цілюща б’є жах інфекцій шипучим «ь».</p>
+	<p class="fw500 preview"><span class="fontname">RoadUA Medium — 500</span>		<br> Щурячий бугай із їжаком-харцизом в’ючись підписали ґешефт у єнах.</p>
+	<p class="fw700 preview"><span class="fontname">RoadUA Bold — 700</span>		<br> Юнкерський джинґл, що при безхліб’ї чує фашист, це ловця гімн.</p>
+	<p class="fw800 preview"><span class="fontname">RoadUA ExtraBold — 800</span>	<br> Фабрикуймо гідність, лящім їжею, ґав хапаймо, з’єднавці чаш!</p>
+	<p class="fw900 preview"><span class="fontname">RoadUA Black — 900</span>		<br> Щастям б’єш жук їх глицю в фон й ґедзь пріч.</p>
 </div>
 
 

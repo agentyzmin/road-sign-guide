@@ -303,8 +303,8 @@
     --notice-tip-before-content         : ;
 
     /* Tables */
-    --table-border                      : 0.075em;
-    --table-color                       : var(--mono-shade1);
+    --table-border                      : 0.0em;
+    --table-color                       : var(--mono-shade4);
 
     --table-body-border-color           : var(--table-color);
     --table-body-border-width           : var(--table-border);
@@ -559,6 +559,18 @@
     margin-top: 2em;
 }
 
+button {
+    font-weight: 700;
+    color: var(--base-background-color);
+    background-color: var(--base-color);                
+
+    border: none;
+    border-radius: 0.1em;
+
+    padding: 0.5em 1em 0.5em;
+}
+
+
 /* sidebar */
 .sidebar-nav {
     font-size: 0.75em;
@@ -584,6 +596,8 @@ p.caption {
 p.caption + p {
     margin-top: 2em;
 }
+
+
 
 .search input {
     border-radius: 0.25em;
@@ -612,7 +626,7 @@ p.caption + p {
 /*Road Numbers*/
 
 .road-num {
-  padding: 0.15em 0.25em 0; 
+  padding: 0.05em 0.25em 0.02em 0.27em; 
   margin: 0 0.1em;
   font-weight: 600; 
   border-radius: 0.25em;
@@ -661,3 +675,6 @@ p.caption + p {
 }
 
 
+p + ul, p + ol {
+    margin-top: -1rem !important;
+}
