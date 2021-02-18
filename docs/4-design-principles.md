@@ -1,5 +1,3 @@
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
 # 4. Побудова знаків та їхніх елементів
 
 
