@@ -90,4 +90,4 @@
 
 <img src="assets/license/cc-by.svg" height="20" alt="Creative Commons Attribution International"/>
 <img src="assets/license/cc-nd.svg" height="20" alt="Creative Commons Attribution-NoDerivatives"/> 
-<p class="caption">Ліцензія матеріалів — <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.uk">CC BY-ND 4.0</a> — при використанні обов’язково вказувати авторів, можна копіювати, розповсюджувати та використовувати у комерційних цілях, заборонено модифікувати, продавати та обмежувати інших у використанні цих матеріалів.</p>
+<p class="caption">Ліцензія матеріалів — <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.uk">CC BY-ND 4.0</a> — при використанні обов’язково вказувати авторів, можна копіювати, розповсюджувати та використовувати у комерційних цілях, заборонено модифікувати, продавати та обмежувати інших у використанні цих матеріалів. Всі матеріали розміщені на <a href="https://github.com/agentyzmin/road-sign-guide" target="_blank"><img src="assets/icons/github.svg" height="12px" style="margin-right: 4px;">Github</a>.</p>
