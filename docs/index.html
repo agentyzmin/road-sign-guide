@@ -25,6 +25,111 @@
 
 </head>
 <body>
+
+
+
+<!-- FEEDBACK -->
+<!-- 
+<style type="text/css">
+  
+.feedback-button {
+  position: fixed;
+  /*background-color: #32DC77;*/
+  background-color: #ddd;
+  width: 40px;
+  height: 40px;
+  top: 80%;
+  right: 0;
+  color: #FFF;
+  padding: 12px;
+  z-index: 888;
+}
+
+.close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 1em;
+  height: 1em;
+}
+
+.feedback-popup {
+  background-color: #F2F2F8;
+  padding: 1.5em 2em;
+  /*width: 30em;*/
+  position: fixed;
+  right: 0;
+  bottom: 1em;
+  z-index: 999;
+  display: none;
+}
+
+</style>
+
+
+<script type="text/javascript">
+function showDiv() {
+   document.getElementById('modal').style.display = "block";
+}
+function hideDiv() {
+   document.getElementById('modal').style.display = "none";
+}
+</script>
+
+
+<div class="feedback-popup col-lg-4 col-12" id="modal">
+  <a style="cursor: pointer;" onclick="hideDiv()">
+    <div class="close">
+    <svg class="w-100" viewBox="0 0 31.11 31.11">
+    <rect x="13.56" y="-4.44" transform="matrix(0.7071 0.7071 -0.7071 0.7071 15.5563 -6.4437)" fill="#8F9099" width="4" height="40"/>
+    <rect x="13.56" y="-4.44" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 37.5564 15.5563)" fill="#8F9099" width="4" height="40"/>
+    </svg>
+  </div>
+  </a>
+      <h3>Зворотній зв’зок</h3>
+      <p>Заохочуємо до&nbsp;обговорення через цю форму або через пошту <a href="mailto:road@a3.kyiv.ua">road@a3.kyiv.ua</a>.</p>
+
+
+  <form action="https://mailthis.to/road@a3.kyiv.ua"
+    method="POST" encType="multipart/form-data" data-netlify="true" name="road-feedback">
+        
+        <input type="hidden" name="_subject" value="Feedback">
+        
+        <div class="form-group">
+          <label for="colFormLabel" class="col-form-label-sm">Повідомлення</label>
+          <textarea class="form-control" name="message" rows="6"></textarea>
+        </div>
+
+        <div class="form-group row pr-3">
+          <label for="colFormLabel" class="col-4 col-form-label-sm">Прикласти файл:</label>
+          <input type="file" class="form-control-file col-8" name="file">
+        </div>
+
+        <div class="form-group row pr-3">
+          <label for="colFormLabel" class="col-4 col-form-label-sm">Пошта:</label>
+          <input type="email" class="form-control" name="_replyto">
+        </div>
+
+        <input type="hidden" name="_honeypot" value="">
+        
+        <input type="hidden" name="_confirmation" value="Дякуємо за зворотній зв’язок! Слідкуйте за ходом проекту на сайті — a3.kyiv.ua/projects/road-wayfinding , у фейсбуці та телеграмі.">
+        
+        <button type="submit" class="">Надіслати</button>
+
+      </form>
+
+</div>
+
+<a style="cursor: pointer;" onclick="showDiv()"><div class="feedback-button">
+  <img class="w-100 mb-3" src="assets/icons/mail-white.svg">
+</div></a>
+
+ -->
+
+
+
+
+
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -54,7 +159,13 @@
         '/.*/_sidebar.md'     : '/_sidebar.md',
         '/docs/_sidebar.md'   : '/_sidebar.md'
       },
-      ga: 'G-KX64DPWJ1Q'
+      ga: 'G-KX64DPWJ1Q',
+      pagination: {
+        previousText: 'Назад',
+        nextText: 'Далі',
+        // crossChapter: true,
+        // crossChapterText: true,
+      },
     }
   </script>
   <!-- Docsify v4 -->
@@ -66,5 +177,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
