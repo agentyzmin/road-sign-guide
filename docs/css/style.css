@@ -520,7 +520,7 @@
     --sidebar-toggle-width                        : 44px;
 
 
-    /*Search*/
+    /* Search */
 
     --search-input-font-size                      : 14px;
     --search-result-item-font-size                : var(--search-input-font-size);
@@ -534,6 +534,16 @@
     --search-input-border-style                   : solid;
     --search-input-border-color                   : #ccc;
     --search-input-border-radius                  : 0.25em;
+
+
+    /* Pagination */
+/*    --pagination-border-top: 1px solid var(--mono-tint2);
+    --pagination-chevron-height: 0.8em;
+    --pagination-chevron-stroke: currentColor;
+    --pagination-chevron-stroke-linecap: round;
+    --pagination-chevron-stroke-width: 1px;*/
+    --pagination-label-font-size: var(--font-size-s);
+    --pagination-title-font-size: var(--font-size-m)
 
 }
 
@@ -677,4 +687,13 @@ p.caption + p {
 
 p + ul, p + ol {
     margin-top: -1rem !important;
+}
+
+.pagination-item--previous, .pagination-item--next {
+    width: 50%;
+}
+
+.pagination-item-title {
+    line-height: 1.2;
+    margin-top: 0.2rem;
 }
