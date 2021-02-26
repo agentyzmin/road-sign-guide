@@ -14,6 +14,46 @@
 * ви&nbsp;працюєте з&nbsp;ситуацією, яку не&nbsp;описана в&nbsp;посібнику;
 * у&nbsp;вас є&nbsp;пропозиції, як&nbsp;покращити систему маршрутного орієнтування.
 
+
+<style type="text/css">
+
+.bg-light {
+    background-color: #F5F5F8;
+    width: 100%;
+    padding: 1em 1.2em 1.1em;
+}
+
+.bg-light > p {
+  margin: 0 0 0.5em 0;
+}
+
+.left-col {
+  float: left;
+  margin-right: 1em;
+  width: 100px;
+  min-height: 100%;
+}
+
+</style>
+
+
+
+<div class="bg-light" style="min-height: 180px;">
+
+<div class="left-col">
+  <a href="http://cdn.a3.kyiv.ua/files/UA-RoadSigns-Guide-v1-26-01-21.pdf" target="_blank"><img src="assets/icons/UA-RoadSigns-Guide.jpg" class=""></a>
+</div>
+
+  <p>Путівник можна також завантажити у&nbsp;вигляді PDF.</p>
+  <a href="http://cdn.a3.kyiv.ua/files/UA-RoadSigns-Guide-v1-26-01-21.pdf" target="_blank" style="font-weight: 700;">
+    <img height="24" src="assets/icons/filetype-pdf.svg" style="margin-bottom: -0.2em; margin-right: 0.2em;">Завантажити
+  </a>
+  <p class="caption" style="margin-top: 0.2em;">PDF, 8 МБ</p>
+
+</div>
+
+
+
 ## Зміст
 
 * [Розділ 1. Основні принципи](        1-principles.md)
