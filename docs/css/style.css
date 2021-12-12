@@ -710,6 +710,11 @@ p + ul, p + ol {
     margin: 0 0 0.5em 0;
 }
 
+.highlight {
+    background-color: #FFE8B0; 
+    padding: 0 0.2em 0.15em;
+}
+
 .left-col {
     float: left;
     margin-right: 1em;
@@ -879,6 +884,14 @@ a:hover {
     box-shadow: 0 1em 1em hsla(0, 0%, 0%, 0.8);
 }
 
+.bg-light {
+    background-color: #444454;
+}
+
+.highlight {
+    background-color: #7F6B39; 
+    padding: 0 0.2em 0.15em;
+}
 
 /*body, .sidebar, .sidebar-nav {
     background-color: #121517;

@@ -1,6 +1,6 @@
 # Маршрутне орієнтування на&nbsp;дорогах України: системний путівник
 
-<code class="caption" style="background-color: #FFE8B0; padding: 0 0.2em 0.15em;"><small>
+<code class="caption highlight"><small>
   Це робоча версія 1.0 від 26 січня 2021 року
 </small></code>
 
