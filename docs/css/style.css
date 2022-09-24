@@ -303,14 +303,14 @@
     --notice-tip-before-content         : ;
 
     /* Tables */
-    --table-border                      : 0.0em;
-    --table-color                       : var(--mono-shade4);
+    --table-border                      : 0.04em;
+    --table-color                       : var(--mono-tint1);
 
     --table-body-border-color           : var(--table-color);
     --table-body-border-width           : var(--table-border);
     --table-cell-border-color           : var(--table-color);
     --table-cell-border-width           : var(--table-border);
-    --table-cell-padding                : 0.5em 0.25em;
+    --table-cell-padding                : 0.25em 0.5em;
     --table-head-background             : ;
     --table-head-border-color           : var(--table-color);
     --table-head-border-width           : var(--table-border);
