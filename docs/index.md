@@ -19,7 +19,7 @@
 
 
 
-<div class="bg-light" style="min-height: 180px;">
+<div class="bg-light" style="min-height: 180px; margin-bottom: 1em;">
 
 <div class="left-col">
   <a href="http://cdn.a3.kyiv.ua/files/UA-RoadSigns-Guide-v1-26-01-21.pdf" target="_blank"><img src="assets/icons/UA-RoadSigns-Guide.jpg" class=""></a>
